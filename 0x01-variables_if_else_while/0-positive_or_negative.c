@@ -7,7 +7,7 @@
  * it execites and prints it
  * and finally reyurns 0 if successful
  **/
-int main(void)
+int main (void)
 {
 	int n;
 
