@@ -4,10 +4,10 @@
 
 int main(void)
 /*
-  main -assignd a random number every time n is call
-  it execites and prints it
-  and finally reyurns 0 if successful
- */
+*main -assignd a random number every time n is call
+*it execites and prints it
+*and finally reyurns 0 if successful
+*/
 
 {
 	int n;
