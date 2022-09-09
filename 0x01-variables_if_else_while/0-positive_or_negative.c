@@ -1,8 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
-#include <stdio.h> 
-/* betty style doc for function main goes there */
+#include <stdio.h>
+
+/**
+ * main -assignd a random number every time n is call
+ * it execites and prints it
+ * and finally reyurns 0 if successful
+ * */
 int main(void)
 {
 	int n;
