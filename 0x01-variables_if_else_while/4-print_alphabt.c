@@ -2,8 +2,12 @@
 #include <time.h>
 #include <stdlib.h>
 /**
- * This program prints the alphabeet in lower case
- * except q and e
+ * main - This program prints the alphabeet in lower case
+ *
+ * Description:'This program prints alphabet in lowercass
+ * except the alphabet q and e'
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
