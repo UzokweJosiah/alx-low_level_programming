@@ -13,9 +13,10 @@
 int main(void)
 {
 	int num;
-	for (num = 0; num <=10;)
+
+	for (num = 0; num <= 10;)
 	{
-		putchar(num);
+		printf("%d", num);
 		num++;
 	}
 	return (0);
