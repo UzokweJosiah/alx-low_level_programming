@@ -3,8 +3,10 @@
 #include <stdio.h>
 /**
  * main - Assign random numbeer to the variable n
+ *
  * Description:The program assign random number to the variable n, 
  * checks if a number is positive or negative and prints it out.
+ *
  * Return: Always 0 (Success)
  */
 
