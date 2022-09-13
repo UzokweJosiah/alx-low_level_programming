@@ -3,7 +3,8 @@
 /**
  * main - prints alphabet in lowercase
  *
- * Description:'A function that prints alphabet in lowercase followed ny newline'
+ * Description:'A function that prints alphabet in lowercase
+ * followed ny newline'
  *
  * Return: Always 0 (Success)
  */
