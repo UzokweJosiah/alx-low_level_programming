@@ -14,7 +14,7 @@ int _islower(int c)
 
 	while (alphabet >= 'a'; aphabet <= 'z'; alphabet++)
 	{
-		if (c = alphabet)
+		if (c == alphabet)
 		{
 			return (1);
 		}
