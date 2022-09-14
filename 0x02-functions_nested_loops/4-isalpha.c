@@ -9,7 +9,7 @@
  * Retun: 1 if c is letter, else 0
  */
 
-int _isalpha(int c);
+int _isalpha(int c)
 {
 	int alphabet;
 	int return_value = 0;
@@ -22,11 +22,13 @@ int _isalpha(int c);
 		}
 
 		for (alphabet = 'A'; alphabet <= 'Z'; alphabet++)
+		{
 			if (c == alphabet)
 			{
 				return (1);
 			}
 		return (return_value);
+		}
 	}
 
 }
