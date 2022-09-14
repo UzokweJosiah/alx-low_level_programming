@@ -18,14 +18,14 @@ int _isalpha(int c)
 	{
 		if (c == alphabet)
 		{
-			return (1);
+			return_value = 1
 		}
 
 		for (alphabet = 'A'; alphabet <= 'Z'; alphabet++)
 		{
 			if (c == alphabet)
 			{
-				return (1);
+				return_value = 1;
 			}
 		return (return_value);
 		}
