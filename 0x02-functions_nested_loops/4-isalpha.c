@@ -3,10 +3,8 @@
 
 /**
  * _isalpha - Main Entry
- *
- * @c: the character to be check
- *
- * Retun: 1 if c is letter, else 0
+ * Return: 1 true 0 false
+ * @c: being an automatic variable
  */
 
 int _isalpha(int c)
@@ -25,7 +23,6 @@ int _isalpha(int c)
 			if (c == alphabet)
 				return_value = 1;
 	}
-		return (return_value);
-	
 
+	return (return_value);
 }
