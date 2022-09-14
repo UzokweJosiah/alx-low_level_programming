@@ -11,17 +11,14 @@
 int _islower(int c)
 {
 	int alphabet;
+	int retval = 0;
 
 	while (alphabet >= 'a'; aphabet <= 'z'; alphabet++)
 	{
 		if (c == alphabet)
-		{
-			return (1);
-		}
-		else
-		{
-			return (0);
-		}
+			retval = 1;
 	}
+
+	return (retval);
 
 }
