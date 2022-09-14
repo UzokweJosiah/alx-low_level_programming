@@ -10,6 +10,18 @@
  */
 int _islower(int c)
 {
-	retun(c >= 'a' && c <= 'z');
+	int alphabet;
+
+	while (alphabet >= 'a'; aphabet <= 'z'; alphabet++)
+	{
+		if (c = alphabet)
+		{
+			return (1);
+		}
+		else
+		{
+			return (0);
+		}
+	}
 
 }
