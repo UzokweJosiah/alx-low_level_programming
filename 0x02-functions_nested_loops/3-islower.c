@@ -13,7 +13,7 @@ int _islower(int c)
 	int alphabet;
 	int retval = 0;
 
-	for (alphabet >= 'a'; aphabet <= 'z'; alphabet++)
+	for (alphabet = 'a'; aphabet <= 'z'; alphabet++)
 	{
 		if (c == alphabet)
 			retval = 1;
