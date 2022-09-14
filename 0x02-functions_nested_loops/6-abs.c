@@ -7,7 +7,7 @@
  *
  * Return: Always 0 (Success)
  */
-int -abs(int)
+int _abs(int)
 {
 	if (n < 0)
 		n *= -1;
