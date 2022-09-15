@@ -8,20 +8,6 @@
  * returns 1 if c is uppercase else 0
  */
 int _isupper(int c)
-
-/**
-{
-	char alphabet;
-	int return_value = 0;
-
-	for (alphabet >= 'A'; alphabet <= 'Z'; alphabet++)
-	{
-		if (c == alphabet)
-			return_value = 1;
-	}
-		return (return_value);
-}
-*/
 {
 	return ( c >= 'A' && c <= 'z');
 	
