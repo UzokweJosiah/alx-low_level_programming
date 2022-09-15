@@ -12,15 +12,10 @@ int _isupper(int c)
 	int alphabet;
 	int return_value = 0;
 
-	while (alphabet >= 'A'; alphabet <= 'Z'; alphabet++)
+	for (alphabet >= 'A'; alphabet <= 'Z'; alphabet++)
 	{
-		if (alphabet == c)
-		{
-			_putchar(alphabet);
+		if (c == alphabet)
 			return_value = 1;
-		}
-		return (return_value);
 	}
-
-
+		return (return_value);
 }
