@@ -9,7 +9,7 @@
  */
 int _isupper(int c)
 {
-	int alphabet;
+	char alphabet;
 	int return_value = 0;
 
 	for (alphabet >= 'A'; alphabet <= 'Z'; alphabet++)
