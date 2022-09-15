@@ -14,8 +14,8 @@ int _isdigit(int c)
 	for ( a = 0; a <= 9; a++)
 	{
 		if (c == a)
-			b = 1
+			b = 1;
 	}
-	return (b)
+	return (b);
 
 }
