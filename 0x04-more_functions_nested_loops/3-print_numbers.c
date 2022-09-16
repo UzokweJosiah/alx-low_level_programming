@@ -1,12 +1,12 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
  * print_numbers - function prints numbers from 0 to 9
  *
- * @void: 
- *
- * Return: Always 0 success
+ * Return: null
  */
+
 void print_numbers(void)
 {
 	int i;
