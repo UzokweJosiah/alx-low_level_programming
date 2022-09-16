@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include "main.h"
+
 /**
- * print_square - prints a square
- * @size: indicates the size of te square
- *
- * Description: the function prints a square, followed by a new line
+ * print_square - prints a square,followed by a new line;
+ * @size: size of te square
  */
+
 void print_square(int size)
 {
 
