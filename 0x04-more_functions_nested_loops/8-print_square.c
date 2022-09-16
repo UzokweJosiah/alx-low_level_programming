@@ -3,7 +3,11 @@
 
 /**
  * print_square - prints a square,followed by a new line;
+ * you can only use _putchar function to print
  * @size: size of te square
+ * if size is 0 or less, thhe function should print only a new line
+ * use the character # to print the square
+ * Return: 0
  */
 
 void print_square(int size)
