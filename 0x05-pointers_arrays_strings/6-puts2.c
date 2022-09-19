@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * puts2 - prints one out of 2 of string
- * followed by a new ine
- * @str; string to print the chars from
+ * puts2 - prints one out of 2 of string followed by a new ine
+ * @str: string to print the chars from
  * Description: The function prints every other character of string
  * starting with the first character
  * Return: null
