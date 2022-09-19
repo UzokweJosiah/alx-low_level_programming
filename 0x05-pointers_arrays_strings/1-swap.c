@@ -1,4 +1,5 @@
-#include "main"
+#include "main.h"
+#include <stdio.h>
 
 /**
  * swap_int -swaps the values of two integers
@@ -6,6 +7,7 @@
  * @b: pointer to second value
  *
  * Description: Afunction that swaps the values of two integers
+ * Return: null
  */
 
 void swap_int(int *a, int *b)
@@ -13,6 +15,6 @@ void swap_int(int *a, int *b)
 	int c;
 
 	c = *a;
-	*a =*b;
+	*a = *b;
 	*b = c;
 }
