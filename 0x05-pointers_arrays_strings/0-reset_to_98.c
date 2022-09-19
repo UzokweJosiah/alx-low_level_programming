@@ -8,7 +8,7 @@
  * Description: the function takes apointer to an int as parameter
  * and update the value it points to.
  */
-void rest_to_98(int *n)
+void reset_to_98(int *n)
 {
 	*n = 98;
 }
