@@ -2,7 +2,7 @@
 #define MAIN_H
 
 int _putchar(char c);
-void rest_to_98(int *n);
+void reset_to_98(int *n);
 
 
 #endif
