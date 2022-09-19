@@ -5,14 +5,10 @@
 
 int main(void)
 {
-	int a;
-	int b;
-	
-	a = 98;
-	b = 42;
+	char *str;
 
-	swap_int(&a, &b);
-	printf("a=%d, b=%d\n", a, b);
+	str = "My first strlen!";
+	printf("string lenght = %d\n", _strlen(str));
 
-	return(0)
+	return (0);
 }
