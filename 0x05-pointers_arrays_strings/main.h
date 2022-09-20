@@ -19,5 +19,5 @@ void puts2(char *str);
 
 int _atoi(char *s);
 
-
+void puts_half(char *str);
 #endif
