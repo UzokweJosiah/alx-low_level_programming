@@ -12,6 +12,27 @@
 
 char *_strstr(char *haystack, char *needle)
 {
+	char *pn = needle, *ph = haystack;
+
+	while (*haystack)
+	{
+		ph = haystack;
+		needle = pn;
+		while (*haystack == *needle)
+		{
+			haystack++;
+			needle++;
+		}
+		if (*needle == '\0')
+			return (haystack);
+		haystack = starth + 1;
+	}
+	return (NULL);
+
+}
+/**
+{
+
 	int i, j;
 
 	for (i = 0; haystack[i] != '\0'; i++)
