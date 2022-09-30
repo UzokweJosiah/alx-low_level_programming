@@ -52,21 +52,20 @@ int _atoi(char *s)
  */
 int main(int argc, char *argv[])
 {
-	int sum, num1, num2;
-	
-	sum = 0;
+	int num1, num2, sum = 0;
 
 	for (i = 1; i < argc; i++)
 	{
-		for (j = 0; argv[i][j] != '\0': j++)
+		for (j = 0; argv[i][j] != '\0'; j++)
 		{
 			if (argv[i][j] > '9' || argv[i][j] < '0')
 			{
 				puts("Error");
-				return (0);
+				return (1);
 			}
 		}
 	}
+
 	for (k = 1; k < argc; K++)
 	{
 		num = _atoi(argv[k]);
