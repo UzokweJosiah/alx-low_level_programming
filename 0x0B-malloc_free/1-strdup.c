@@ -3,8 +3,9 @@
 #include "main.h"
 
 /**
- * *_strdup - a function that returns a pointer to a newely allocated space in memory
- * @*str: a pointer to a duplicate string
+ * *_strdup - a function that returns a pointer to a newely
+ * allocated space in memory
+ * @str: a pointer to a duplicate string
  *
  * Return: NULL if string is zero or insufficient memory was available.
  * on success returns a pointer to the duplicate
