@@ -7,7 +7,7 @@
  * @width: width of the matrix
  * @height: height of the matrix
  *
- * Retun: point to created matrix if successful
+ * Return: point to created matrix if successful
  * or NULL on error
  */
 
@@ -27,14 +27,21 @@ int **alloc_grid(int width, int height)
 	for (i = 0; i < height; i++)
 	{
 		array[i] = (int *) malloc(sizeof(int) * width);
+		
 		if (array[i] == NULL)
 		{
 			free(array);
 			for (j = 0; j < width; j++)
+				free(array[j]);
+			return (NULL);
+		}
+	}
+
+	for (i = 0; i < height; i++)
+	{
+		for (j = 0; j < width; j++)
 			{
 				array[i][j] = 0;
 			}
-		}
 	}
 	return (array);
-}
