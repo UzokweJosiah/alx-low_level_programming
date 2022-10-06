@@ -9,7 +9,7 @@
  * Return: pointer to new string on success, NULL on error
  */
 
-char *argstostr(int ac, char **av)
+char **strtow(int *str)
 {
 	int i, j, k, len;
 	char *str;
