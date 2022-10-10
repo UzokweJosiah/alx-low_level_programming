@@ -20,7 +20,7 @@ int _strlen(char *s)
 }
 
 /**
- * *-strcpy - copies the xtring pointer to by src
+ * *_strcpy - copies the xtring pointer to by src
  * including the terminating null byte (\0)
  * to the buffer pointed to by dest
  * @dest: pointer tp the buffer in which we copy the string
@@ -31,7 +31,9 @@ int _strlen(char *s)
 
 char *_strcpy(char *dest, char *src)
 {
-	int i, len = 0;
+	int i, len;
+
+	len = 0;
 
 	while (src[len] != '\0')
 	{
@@ -47,7 +49,7 @@ char *_strcpy(char *dest, char *src)
 	return (dest);
 }
 /**
- * ne_dog - creates a new dog
+ * new_dog - creates a new dog
  * @name: name of dog
  * @age: age of dog
  * @owner: owner of dog
